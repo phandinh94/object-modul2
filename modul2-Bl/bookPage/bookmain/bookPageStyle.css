@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+.bookPage .boy-love h3{
+    padding: 10px 10px;
+}
+.homePage .bookPage .boyLove{
+    display: flex;
+}
+.homePage .bookPage .boy-love .boyLove .item-list{
+    width: 100%;
+    margin-left : 10px;
+    height: 250px;
+    transition: 0.4s;
+}
+.homePage .bookPage .boy-love .boyLove .item-list:last-child{
+    margin-right : 10px;
+}
+.homePage .bookPage .boy-love .boyLove .item-list .img-btn{
+    height: calc(100% - 50px);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.homePage .bookPage .boy-love .boyLove .item-list:hover{
+    scale: 1.2;
+    border: 1px solid black;
+}
+.homePage .bookPage .boy-love .boyLove .item-list .name-btn{
+    width: 100%;
+    height: 50px;
+}
+.homePage .listbook-name{
+    padding: 7px 7px;
+}
+.homePage .listBook .search{
+    width: 80%;
+    padding: 20px 7px;
+}
+.homePage .listBook .search #input-list{
+    width: 100%;
+    border: 1px solid grey;
+    padding: 7px 7px;
+}
